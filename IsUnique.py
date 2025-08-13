@@ -11,7 +11,7 @@ def IsUnique(s: str):
         if c in seen:
             return False
         else:
-            seen.append(c)
+            seen.add(c)
     
     return True
 
